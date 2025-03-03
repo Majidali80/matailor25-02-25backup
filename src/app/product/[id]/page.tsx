@@ -10,7 +10,7 @@ import { CartItem } from "../../types/cart";
 import CustomizationForm from '../../components/CustomizationForm';
 import { CustomizationDetails } from '../../types/customization'; // Import the type
 import SizeGuide from '../../components/sizeGuide'; // Import the SizeGuide component
-import router, { useRouter } from 'next/router'; // Import useRouter for redirection
+import router from 'next/router'; // Import useRouter for redirection
 import CartPopup from '../../components/CartPopup'; // Import CartPopup
 
 interface ProductDetailProps {
