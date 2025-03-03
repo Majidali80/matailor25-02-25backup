@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Product } from "@/app/types/product"; // Import the Product interface
+import ProductCardProps  from '../products-Card/page'; // Ensure this path is correct
 
 // Define the interface for the product card props
 interface ProductCardProps {
