@@ -1,6 +1,6 @@
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import Swal from "sweetalert2";
+
 import { FaCheckCircle } from "react-icons/fa";
 import { useCart } from "../../context/cartContext";
 
